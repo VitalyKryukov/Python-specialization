@@ -1,0 +1,12 @@
+A file is a data area on a storage medium (disk, flash drive, etc.).
+The file is used as the basic object for interacting with data.
+The operating system refers to the file by name.
+
+The open function has one required parameter - file. Typically file is an object
+type str or bytes, which represents an absolute or relative path to
+file.
+The relative path is calculated from the program launch directory. Function
+returns a file object or throws an OSError if it fails
+return object.
+Привет мир!Окончание файла
+Окончание файла
