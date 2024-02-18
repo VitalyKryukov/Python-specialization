@@ -1,0 +1,6 @@
+ERROR:root:Произошла ошибка деления на ноль
+Traceback (most recent call last):
+  File "G:\GeekBrains\1_Учебный процесс\3 Технологическая специализация\Python specialization\1_Python dive\lesson_15\seminar\task_01.py", line 9, in <module>
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero

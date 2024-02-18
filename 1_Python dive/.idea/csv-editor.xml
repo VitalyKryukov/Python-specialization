@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\lesson_8\lesson\biostats_new.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\lesson_8\lesson\biostats_tab.csv">
           <value>
             <Attribute>
