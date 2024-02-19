@@ -1,0 +1,15 @@
+INFO     2024-02-19 16:24:53,557 students.education 'Математика - 5, 15' - Ok
+INFO     2024-02-19 16:24:53,557 students.education 'None' - Ok
+INFO     2024-02-19 16:26:21,909 students.education 'Математика - 5, 15' - Ok
+INFO     2024-02-19 16:26:21,910 students.education 'None' - Ok
+INFO     2024-02-19 16:27:15,863 students.education 'Математика - 5, 10' - Ok
+INFO     2024-02-19 16:27:15,863 students.education 'None' - Ok
+INFO     2024-02-19 16:27:25,570 students.education 'Математика - 5, 15' - Ok
+ERROR    2024-02-19 16:27:25,571 students.education 'Математика - 5, 15' - Математика - недопустимая дисциплина, или уже есть в списке!
+INFO     2024-02-19 16:27:25,572 students.education 'None' - Ok
+INFO     2024-02-19 16:27:43,934 students.education 'Математика - 5, 10' - Ok
+ERROR    2024-02-19 16:27:43,934 students.education 'Биология - 5, 10' - Биология - недопустимая дисциплина, или уже есть в списке!
+INFO     2024-02-19 16:27:43,935 students.education 'None' - Ok
+INFO     2024-02-19 16:27:56,933 students.education 'Математика - 5, 10' - Ok
+INFO     2024-02-19 16:27:56,933 students.education 'Химия - 5, 15' - Ok
+INFO     2024-02-19 16:27:56,934 students.education 'None' - Ok
