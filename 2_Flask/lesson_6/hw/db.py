@@ -3,6 +3,9 @@
 
 import databases
 import sqlalchemy
+from flask import app
+
+from lesson_6.hw.models.user import User
 from settings import settings
 
 DATABASE_URL = settings.DATABASE_URL

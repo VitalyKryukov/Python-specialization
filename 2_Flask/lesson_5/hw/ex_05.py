@@ -9,12 +9,13 @@
 #Для каждой конечной точки необходимо проводить валидацию данных запроса
 #и ответа. Для этого использовать библиотеку Pydantic.
 
+from typing import Annotated
+
 import uvicorn
 from fastapi import FastAPI, Request, HTTPException, Form
-from pydantic import BaseModel
-from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
-from typing import Annotated
+from fastapi.templating import Jinja2Templates
+from pydantic import BaseModel
 
 app = FastAPI()
 templates = Jinja2Templates(directory="./ht_05_firstViewOfFastAPI/templates")
