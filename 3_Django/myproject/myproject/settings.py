@@ -33,7 +33,7 @@ CSRF_COOKIE_SECURE = True  # Добавляем для развертывани�
 ALLOWED_HOSTS = [
     '192.168.0.101',  # IP адрес ПК для подключения по локальной сети
     '127.0.0.1',  #
-    'vbkryukov.pythonanywhere.com',  # Добавляем для развертывания проекта
+    '2024djangoGB.pythonanywhere.com',  # Добавляем для развертывания проекта
 ]
 
 INTERNAL_IPS = [
@@ -104,10 +104,10 @@ DATABASES = {
 
         # Для работы с pythonanywhere-services.com
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vbkryukov$default',
-        'USER': 'vbkryukov',
+        'NAME': '2024djangoGB$default',
+        'USER': '2024djangoGB',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'vbkryukov.mysql.pythonanywhere-services.com',
+        'HOST': '2024djangoGB.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
